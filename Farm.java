@@ -4,7 +4,7 @@ public class Farm
   {
     World ref=new World();
     GrapeApe grapo=new GrapeApe(ref);
-    Rhino grapo = new Rhino(ref); 
+    Rhino Rhinoo = new Rhino(ref); 
     
   }
 }

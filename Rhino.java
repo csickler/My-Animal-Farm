@@ -8,7 +8,8 @@ public class Rhino extends Turtle
   public Rhino(World wref)
   {
     super(wref);
-    Picture pic = new Picture("/Users/nwestfall/Downloads/cartoon-character-seahorse-22315033.jpg");
+    Picture pic = new Picture("/Users/irai/Downloads/rhino_vector.jpg");
+    this.getPenColor(72,62,139);
     
   }
   
