@@ -5,12 +5,8 @@ public class GrapeApe extends Turtle
    * a turtle in the middle of it
    * @param display the model display
    */
-  public GrapeApe(World wref)
-  {
-    super(wref);
-  }
-  {
-     ex1.setShowInfo(true);
+  public GrapeApe grapo (World wref)
+
   }
   
   /**
