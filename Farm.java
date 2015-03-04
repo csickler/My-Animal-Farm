@@ -4,7 +4,10 @@ public class Farm
   {
     World ref=new World();
     GrapeApe grapo=new GrapeApe(ref);
-    Rhino Rhinoo = new Rhino(ref); 
+    Rhino rhinoo = new Rhino(ref); 
     
+    // giving comands for rhino
+    rhinoo.forward(30);
+   
   }
 }

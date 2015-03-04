@@ -7,7 +7,7 @@ public class GrapeApe extends Turtle
    */
   public GrapeApe(World wref)
   {
-    
+    super(wref);
   }
   /**
    * Constructor that takes the x and y position and the

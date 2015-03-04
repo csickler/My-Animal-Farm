@@ -5,10 +5,10 @@ public class GrapeApe extends Turtle
    * a turtle in the middle of it
    * @param display the model display
    */
-  public GrapeApe grapo (World wref)
-
+  public GrapeApe(World wref)
+  {
+    
   }
-  
   /**
    * Constructor that takes the x and y position and the
    * model displayer

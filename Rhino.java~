@@ -5,10 +5,11 @@ public class Rhino extends Turtle
    * a turtle in the middle of it
    * @param display the model display
    */
-  public ExampleTurtle(World wref)
+  public Rhino(World wref)
   {
     super(wref);
-    Picture pic = new Picture("/Users/nwestfall/Downloads/cartoon-character-seahorse-22315033.jpg");
+    Picture pic = new Picture("/Users/irai/Downloads/rhino_vector.jpg");
+    this.getPenColor(72,62,139);
     
   }
   
@@ -19,7 +20,7 @@ public class Rhino extends Turtle
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public Rhino(int x, int y, World wref)
   {
     super(x, y, wref);
   }
