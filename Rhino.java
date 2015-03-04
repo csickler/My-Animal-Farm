@@ -9,7 +9,7 @@ public class Rhino extends Turtle
   {
     super(wref);
     Picture pic = new Picture("/Users/irai/Downloads/rhino_vector.jpg");
-    this.getPenColor(72,62,139);
+    //this.getPenColor(72,62,139);
     this.setWidth(30);
   }
   
