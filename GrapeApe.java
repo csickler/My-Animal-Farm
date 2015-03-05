@@ -12,9 +12,9 @@ public class GrapeApe extends Turtle
     super(wref);
     //this.getShellColor(147, 112, 219);
     Color shellColor = new Color(147, 112, 219); 
-    this.setShellColor(shellColor);
-    this.setHeight(150);
-    this.setWidth(90);
+    //this.setShellColor();
+    this.setHeight(30);
+    this.setWidth(30);
     //this.animateForward(30,10);
   }
         /**
