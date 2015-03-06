@@ -8,6 +8,10 @@ public class Farm
     
     // giving comands for rhino
     rhinoo.forward(30);
+    rhinoo.turn(100);
+    rhinoo.forward(200);
+    rhinoo.turn(180);
+    
     
     // giving commands for grapo
     grapo.turn(270);
