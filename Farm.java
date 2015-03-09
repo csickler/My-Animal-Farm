@@ -10,18 +10,19 @@ public class Farm
     rhinoo.forward(30);
     
     // giving commands for grapo
-    grapo.turn(270);
-    grapo.forward(60);
-    grapo.turn(90);
-    grapo.forward(70);
-    grapo.turn(90);
-    grapo.forward(110);
-    grapo.turn(270);
-    grapo.forward(110);
-    grapo.turn(270);
-    grapo.forward(250);
-    grapo.turn(270);
-    grapo.forward(300);
+    grapo.animateTurn(270);
+    grapo.animateForward(60);
+    grapo.animateTurn(90);
+    grapo.animateForward(70);
+    grapo.animateTurn(90);
+    grapo.animateForward(110);
+    grapo.animateTurn(270);
+    grapo.animateForward(110);
+    grapo.animateTurn(270);
+    grapo.animateForward(250);
+    grapo.animateTurn(270);
+    grapo.animateForward(300);
+    grapo.animateForward(0);
    
   }
 }
