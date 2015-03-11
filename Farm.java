@@ -24,12 +24,50 @@ public class Farm
     grapo.animateTurn(90);
     grapo.animateForward(110);
     grapo.animateTurn(270);
-    grapo.animateForward(110);
+    grapo.animateForward(90);
+    grapo.animateTurn(270);
+    grapo.animateForward(200);
     grapo.animateTurn(270);
     grapo.animateForward(250);
     grapo.animateTurn(270);
-    grapo.animateForward(300);
-    grapo.animateForward(0);
+    grapo.animateForward(200);
+    grapo.animateTurn(270);
+    grapo.animateForward(120);
+    grapo.animateTurn(270);
+    grapo.animateForward(50);
+    grapo.animateTurn(180);
+    grapo.animateForward(25);
+    grapo.animateTurn(90);
+    grapo.animateForward(25);
+    grapo.animateTurn(90);
+    grapo.animateForward(20);
+    grapo.animateTurn(180);
+    grapo.animateForward(40);
+    grapo.animateTurn(90);
+    grapo.animateForward(25);
+    grapo.animateTurn(90);
+    grapo.animateForward(20);
+    grapo.animateTurn(90);
+    grapo.animateForward(25);
+    grapo.animateTurn(225);
+    grapo.animateForward(35);
+    grapo.animateTurn(250);
+    grapo.animateForward(45);
+    grapo.animateTurn(135);
+    grapo.animateForward(45);
+    grapo.animateTurn(180);
+    grapo.animateForward(22);
+    grapo.animateTurn(270);
+    grapo.animateForward(25);
+    
+    
+    
+    
+
+    
+                    
+    
+    
    
   }
 }

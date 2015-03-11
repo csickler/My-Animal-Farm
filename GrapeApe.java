@@ -17,11 +17,11 @@ public class GrapeApe extends Turtle
   }
   public void animateForward(int x)
   {
-    for(int i=0; i<10; i++);
+    for(int i=2; i<20; i++);
       this.forward(x);
        try
          {
-         Thread.sleep(200);
+         Thread.sleep(300);
        }catch (InterruptedException ex) { }
   }
     public void animateTurn(int x)
@@ -31,7 +31,7 @@ public class GrapeApe extends Turtle
       this.turn(x);
       try
       {
-        Thread.sleep(50);
+        Thread.sleep(100);
       }catch (InterruptedException ex) { }
   }
   

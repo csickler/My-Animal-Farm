@@ -10,13 +10,31 @@ public class GrapeApe extends Turtle
   public GrapeApe(World wref)
   {
     super(wref);
-    //this.getShellColor(147, 112, 219);
     Color shellColor = new Color(147, 112, 219); 
-    //this.setShellColor();
+    this.setShellColor(shellColor);
     this.setHeight(30);
     this.setWidth(30);
-    //this.animateForward(30,10);
   }
+  public void animateForward(int x)
+  {
+    for(int i=0; i<10; i++);
+      this.forward(x);
+       try
+         {
+         Thread.sleep(200);
+       }catch (InterruptedException ex) { }
+  }
+    public void animateTurn(int x)
+    { 
+
+      for(int i=0; i<1; i++);
+      this.turn(x);
+      try
+      {
+        Thread.sleep(50);
+      }catch (InterruptedException ex) { }
+  }
+  
         /**
    * Constructor that takes the x and y position and the
    * model displayer
