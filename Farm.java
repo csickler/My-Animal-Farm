@@ -11,6 +11,9 @@ public class Farm
     rhinoo.turn(100);
     rhinoo.forward(200);
     rhinoo.turn(180);
+    rhinoo.forward(66);
+    rhinoo.turn(175);
+    rhinoo.forward(200);
     
     
     // giving commands for grapo
